@@ -15,6 +15,8 @@
 		ADE908D11CCE0882003C09D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE908CF1CCE0882003C09D1 /* LaunchScreen.storyboard */; };
 		ADE908DC1CCE0882003C09D1 /* PopupTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE908DB1CCE0882003C09D1 /* PopupTableViewDemoTests.m */; };
 		ADE908E71CCE0882003C09D1 /* PopupTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE908E61CCE0882003C09D1 /* PopupTableViewDemoUITests.m */; };
+		ADE908F61CCE09A7003C09D1 /* BookListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE908F51CCE09A7003C09D1 /* BookListCellView.m */; };
+		ADE908F81CCE0AF1003C09D1 /* book_front_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE908F71CCE0AF1003C09D1 /* book_front_cover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		ADE908E21CCE0882003C09D1 /* PopupTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE908E61CCE0882003C09D1 /* PopupTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupTableViewDemoUITests.m; sourceTree = "<group>"; };
 		ADE908E81CCE0882003C09D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE908F41CCE09A7003C09D1 /* BookListCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListCellView.h; sourceTree = "<group>"; };
+		ADE908F51CCE09A7003C09D1 /* BookListCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListCellView.m; sourceTree = "<group>"; };
+		ADE908F71CCE0AF1003C09D1 /* book_front_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_front_cover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				ADE908C51CCE0882003C09D1 /* AppDelegate.m */,
 				ADE908C71CCE0882003C09D1 /* ViewController.h */,
 				ADE908C81CCE0882003C09D1 /* ViewController.m */,
+				ADE908F41CCE09A7003C09D1 /* BookListCellView.h */,
+				ADE908F51CCE09A7003C09D1 /* BookListCellView.m */,
 				ADE908CA1CCE0882003C09D1 /* Main.storyboard */,
 				ADE908CD1CCE0882003C09D1 /* Assets.xcassets */,
 				ADE908CF1CCE0882003C09D1 /* LaunchScreen.storyboard */,
@@ -117,6 +124,7 @@
 		ADE908C11CCE0882003C09D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADE908F71CCE0AF1003C09D1 /* book_front_cover.png */,
 				ADE908C21CCE0882003C09D1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE908F81CCE0AF1003C09D1 /* book_front_cover.png in Resources */,
 				ADE908D11CCE0882003C09D1 /* LaunchScreen.storyboard in Resources */,
 				ADE908CE1CCE0882003C09D1 /* Assets.xcassets in Resources */,
 				ADE908CC1CCE0882003C09D1 /* Main.storyboard in Resources */,
@@ -273,6 +282,7 @@
 				ADE908C91CCE0882003C09D1 /* ViewController.m in Sources */,
 				ADE908C61CCE0882003C09D1 /* AppDelegate.m in Sources */,
 				ADE908C31CCE0882003C09D1 /* main.m in Sources */,
+				ADE908F61CCE09A7003C09D1 /* BookListCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
