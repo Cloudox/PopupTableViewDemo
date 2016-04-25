@@ -17,6 +17,7 @@
 		ADE908E71CCE0882003C09D1 /* PopupTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE908E61CCE0882003C09D1 /* PopupTableViewDemoUITests.m */; };
 		ADE908F61CCE09A7003C09D1 /* BookListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE908F51CCE09A7003C09D1 /* BookListCellView.m */; };
 		ADE908F81CCE0AF1003C09D1 /* book_front_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE908F71CCE0AF1003C09D1 /* book_front_cover.png */; };
+		ADE908FA1CCE398D003C09D1 /* PopupTableView.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADE908F91CCE398D003C09D1 /* PopupTableView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		ADE908F41CCE09A7003C09D1 /* BookListCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListCellView.h; sourceTree = "<group>"; };
 		ADE908F51CCE09A7003C09D1 /* BookListCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListCellView.m; sourceTree = "<group>"; };
 		ADE908F71CCE0AF1003C09D1 /* book_front_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_front_cover.png; sourceTree = "<group>"; };
+		ADE908F91CCE398D003C09D1 /* PopupTableView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PopupTableView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				ADE908DA1CCE0882003C09D1 /* PopupTableViewDemoTests */,
 				ADE908E51CCE0882003C09D1 /* PopupTableViewDemoUITests */,
 				ADE908BF1CCE0881003C09D1 /* Products */,
+				ADE908F91CCE398D003C09D1 /* PopupTableView.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +258,7 @@
 				ADE908D11CCE0882003C09D1 /* LaunchScreen.storyboard in Resources */,
 				ADE908CE1CCE0882003C09D1 /* Assets.xcassets in Resources */,
 				ADE908CC1CCE0882003C09D1 /* Main.storyboard in Resources */,
+				ADE908FA1CCE398D003C09D1 /* PopupTableView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
